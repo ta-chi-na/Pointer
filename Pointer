@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+//Hexadecimal Coding
+int main(void)
+{
+    // 'Pointer' is a variable that sores the location/adress (the specific byte) of a variable
+    // int n = 50;
+    // int *p = &n;
+    // int takes up 4 bits or 32 bytes
+    int n = 50;
+    int *p = &n;
+    printf("%p\n", p);
+}
+//quest/ $ make adress
+//quest/ $ ./adress
+//50
