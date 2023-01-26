@@ -11,6 +11,6 @@ int main(void)
     int *p = &n;
     printf("%p\n", p);
 }
-//quest/ $ make adress
-//quest/ $ ./adress
-//50
+//quest/ $ make pointer
+//quest/ $ ./pointer
+//0x7fff23bf738c
