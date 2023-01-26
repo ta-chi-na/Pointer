@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+//Hexadecimal Coding
+int main(void)
+{
+    // int n = 50;
+    // int takes up 4 bits or 32 bytes
+    int n = 50;
+    printf("%i\n", n);
+}
