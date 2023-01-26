@@ -8,3 +8,6 @@ int main(void)
     int n = 50;
     printf("%i\n", n);
 }
+//quest/ $ make adress
+//quest/ $ ./adress
+//50
