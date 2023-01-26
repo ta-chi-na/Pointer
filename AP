@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+//Hexadecimal Coding
+int main(void)
+{
+    int n = 50;
+    int *p = &n;
+    printf("%p\n", p);
+    // printf("%i\n", *p);
+    printf("%i\n", n);
+}
+//quest/ $ make ap
+//quest/ $ ./ap
+//0x7ffc7f13627c
+//50
