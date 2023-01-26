@@ -1,0 +1,43 @@
+// replaced by 'char *' #include <cs50.h> /// traning wheels
+#include <stdio.h>
+
+int main(void)
+{
+    char *s = "HI!";
+    printf("%p\n", s);
+    printf("%p\n", &s[0]);
+    printf("%p\n", &s[1]);
+    printf("%p\n", &s[2]);
+    printf("%p\n", &s[3]);
+}
+
+quest/ $ make strings
+quest/ $ ./strings
+0x55abd9137004
+0x55abd9137004
+0x55abd9137005
+0x55abd9137006
+0x55abd9137007
+
+
+
+// int main(void)
+// {
+//     char *s = "HI!";
+//     char *p = &s[0];
+//     printf("%p\n", p);
+//     printf("%p\n", s);     //'%p' tells the computer to print that address on the screen
+// }
+
+// is is by definition the address of the first characher in C
+
+
+
+// int main(void)
+//{
+//    string s = "HI!";
+//    char c = s[0];
+//    char *p = &c;
+//    printf("%p\n", s);
+//    printf("%p\n", p);
+//}
