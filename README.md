@@ -1,4 +1,4 @@
-# POipnter/Pointee
+# Poipnter/Pointee
 Hexadecimal Coding 
 
 int n = 50;
