@@ -1,4 +1,4 @@
-# Memorie
+# Memory
 Hexadecimal Coding 
 
 int n = 50;
